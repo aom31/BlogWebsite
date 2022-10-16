@@ -1,9 +1,10 @@
 package dao
 
 import (
-	"blogwebsite/models"
 	"log"
 	"os"
+
+	"blogwebsite/common/models"
 
 	"github.com/joho/godotenv"
 	"gorm.io/driver/mysql"

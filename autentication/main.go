@@ -1,8 +1,8 @@
 package main
 
 import (
-	"blogwebsite/dao"
-	"blogwebsite/routes"
+	"blogwebsite/autentication/dao"
+	"blogwebsite/autentication/routes"
 	"log"
 	"os"
 
