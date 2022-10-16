@@ -2,6 +2,7 @@ package main
 
 import (
 	"blogwebsite/dao"
+	"blogwebsite/routes"
 	"log"
 	"os"
 
@@ -14,8 +15,11 @@ func main() {
 	err := godotenv.Load()
 	if err != nil {
 		log.Fatal("Error loading .env files")
+	} else {
+		log.Println("connect successfully")
 	}
 	port := os.Getenv("PORT")
 	app := fiber.New()
+	routes.Setup(app)
 	app.Listen(":" + port)
 }
