@@ -1,3 +1,2 @@
 login after register
-
-image.png
+2.png
