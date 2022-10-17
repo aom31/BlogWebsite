@@ -1,13 +1,13 @@
 package controller
 
 import (
-	"blogwebsite/autentication/dao"
 	"fmt"
+	"forPractice/projectGolang/BlogWebsite/autentication/dao"
 	"log"
 	"regexp"
 	"strings"
 
-	"blogwebsite/common/models"
+	"forPractice/projectGolang/BlogWebsite/common/models"
 
 	"github.com/gofiber/fiber/v2"
 )

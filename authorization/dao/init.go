@@ -4,8 +4,6 @@ import (
 	"log"
 	"os"
 
-	"forPractice/projectGolang/BlogWebsite/common/models"
-
 	"github.com/joho/godotenv"
 	"gorm.io/driver/mysql"
 	"gorm.io/gorm"
@@ -27,8 +25,5 @@ func ConnectDb() {
 		log.Println("connect db successfully")
 	}
 	DB = database
-	//auto create table in db from model
-	database.AutoMigrate(
-		&models.User{},
-	)
+
 }

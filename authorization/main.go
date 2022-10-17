@@ -1,8 +1,8 @@
 package main
 
 import (
-	"forPractice/projectGolang/BlogWebsite/autentication/dao"
-	"forPractice/projectGolang/BlogWebsite/autentication/routes"
+	"forPractice/projectGolang/BlogWebsite/authorization/dao"
+	"forPractice/projectGolang/BlogWebsite/authorization/route"
 	"log"
 	"os"
 
@@ -20,6 +20,6 @@ func main() {
 	}
 	port := os.Getenv("PORT")
 	app := fiber.New()
-	routes.Setup(app)
+	route.Setup(app)
 	app.Listen(":" + port)
 }

@@ -1,7 +1,7 @@
 package routes
 
 import (
-	"blogwebsite/autentication/controller"
+	"forPractice/projectGolang/BlogWebsite/autentication/controller"
 
 	"github.com/gofiber/fiber/v2"
 )
