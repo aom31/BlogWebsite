@@ -12,6 +12,10 @@ import (
 	"github.com/gofiber/fiber/v2"
 )
 
+type Claims struct {
+	jwt.StandardClaims
+}
+
 func Login(c *fiber.Ctx) error {
 	var data map[string]string
 	var user models.User
@@ -49,4 +53,5 @@ func Login(c *fiber.Ctx) error {
 		"message": "You have successfully login",
 		"user":    user,
 	})
+
 }
