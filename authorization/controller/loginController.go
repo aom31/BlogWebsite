@@ -9,6 +9,7 @@ import (
 	"forPractice/projectGolang/BlogWebsite/authorization/dao"
 	"forPractice/projectGolang/BlogWebsite/authorization/util"
 
+	"github.com/dgrijalva/jwt-go"
 	"github.com/gofiber/fiber/v2"
 )
 

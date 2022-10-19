@@ -10,4 +10,5 @@ import (
 func Setup(app *fiber.App) {
 	app.Use(middleware.IsAuthenicate)
 	app.Post("/api/blogweb/create-post", controller.CreatePost)
+	app.Get("/api/blogweb/posts", controller.AllPost)
 }
