@@ -1,8 +1,8 @@
 package main
 
 import (
-	"forPractice/projectGolang/BlogWebsite/createPost/dao"
-	"forPractice/projectGolang/BlogWebsite/createPost/route"
+	"forPractice/projectGolang/BlogWebsite/post/dao"
+	"forPractice/projectGolang/BlogWebsite/post/route"
 	"log"
 	"os"
 

@@ -1,4 +1,4 @@
-module forPractice/projectGolang/BlogWebsite/createPost
+module forPractice/projectGolang/BlogWebsite/post
 
 go 1.18
 
